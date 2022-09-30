@@ -1,0 +1,135 @@
+body {margin:0;}
+	p, h1, h2, h3. h4, h5, h6 {margin: 0;}
+	/* b {font-weight: bold;}
+	i {font-style: italic;} */
+	
+	header h1{position: absolute;
+	display: block;
+		color: #black; font-size: 23px; 
+		width: 200.27px; height: 29px;
+		text-align: center;
+		top: 0; bottom: 0; left: 0; right:0;
+		margin: auto;
+				padding: 10px;
+		background: rgba(255, 255, 255, .7);
+		border-left: 0px solid #555;
+		border-right: 0px solid #555;
+		}
+		
+		menu 
+		{position: relative;
+		display:block;
+		width: 100%;
+		background: #ffe9c0;
+		margin-bottom: 70px;
+		}
+		menu ul {overflow: hidden;
+		width: 450px;
+		margin: 0 auto;}
+	
+		menu ul li {float: left;}
+		
+		menu ul li a{display: block; color: #000000;
+		padding: 19px; font-size; 20px;
+		text-decoration: none;
+		}
+
+	
+	
+section{
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+}
+header{
+
+	width: 100%;
+	height: 620px;
+	margin: 0;
+	position: relative;
+	/* background-repeat: no-repeat;
+	background-position: center; */
+	background-size: cover;
+	/* border-bottom: 5px solid #ffe082; */
+	background-image: url(../image/4.jpeg)
+	no-repeat center;
+	background-attachment: fixed;
+	
+}
+center{
+	width: 100%;
+	margin-bottom: 60px;
+}
+footer{
+	display:block;
+	height: 200px;
+	background: #ffe9c0;
+	color: #fff;
+	padding:40px; 
+}
+page{
+	display: block;
+	width: calc(100%-200px);
+	height: auto;
+	padding: 100px;
+	background: #ffe9c0;
+	text-align: left;
+	padding: 100px 30px;
+	margin-bottom: 50px;
+	page p{color: #000000; font-size: 22px;}
+	page q {}
+}
+news{position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	color: #555;
+}
+ news div{
+	width: calc(33.333% - 46px);
+	height: 440px;
+	float: left;
+	margin: 20px;
+	position: relative;
+	border: 2px solid #507d2a;
+}
+news div h3 {text-align: left; margin:20px 0; font-size:24px; font-weight: bold;}
+news div p{text-align:left; margin: 10px; }
+new div a{position:absolute;right: 10 px; bottom: 10 px;padding: 10px; background:#f00; color:#fff; width: 155px; text-align:center; padding:10px;}
+
+page p {color: #fff; font-size: 18px;
+text-align: justify;}
+page q {display:block; color: #ff0;}
+/* page span{font-size:28px; color:#ff;} */
+
+news div foto 
+ {display: block; width: 100%;
+height: 270px;
+background-size: cover;}
+
+footer-text-left {
+  font-size:50px;
+  padding-left:60px;
+  float:left;
+  word-spacing:30px;}
+
+a.menu:hover {
+font-size:20px;
+}
+footer-content-right {
+  padding-right:40px;
+  margin-top:20px;
+  float:right;
+}
+
+icon.style {
+  height:60px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+icon.style:hover {
+  background-color:yellow;
+  padding:25px;
+
+}
